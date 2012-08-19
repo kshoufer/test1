@@ -39,6 +39,7 @@ public partial class MainPage : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        //this is a test change for gethub 8/18/12 10:41 PM
         //Get Images Path
         var strFilePath = Server.MapPath("MainPage.aspx");
         int indexOfLastCharacter = strFilePath.IndexOf("MainPage.aspx");
